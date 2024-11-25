@@ -27,9 +27,19 @@ age = int('32')
 new_age =  age + int('-5')
 Yes = True
 No = False
-is_student = Yes==No or Yes!=No and No==No
+is_student = Yes==No and Yes!=No and No==No
 print('Name: ', name)
 print('Age: ', age)
 print('New age: ', new_age)
 print('Is student: ',is_student)
 
+print('')
+print('4-ое решение')
+name = 'Danil'
+age = int('32')
+new_age =  age + int('-5')
+is_student = 1==2 or 1!=2 or 1==2
+print('Name: ', name)
+print('Age: ', age)
+print('New age: ', new_age)
+print('Is student: ',is_student)
